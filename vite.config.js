@@ -8,6 +8,10 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: "./tests/setup.js",
+    coverage: {
+      reporter: ["text", "lcov", "html"],  // Add 'lcov' reporter
+      reportsDirectory: './coverage',      // Ensure the coverage directory is set
+    },
   },
   resolve: {
     alias: {
