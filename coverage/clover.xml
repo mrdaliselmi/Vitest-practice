@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1714769997871" clover="3.2.0">
-  <project timestamp="1714769997871" name="All files">
+<coverage generated="1729689992779" clover="3.2.0">
+  <project timestamp="1729689992780" name="All files">
     <metrics statements="281" coveredstatements="197" conditionals="23" coveredconditionals="19" methods="16" coveredmethods="9" elements="320" coveredelements="225" complexity="0" loc="281" ncloc="281" packages="1" files="7" classes="7"/>
-    <file name="App.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\App.jsx">
+    <file name="App.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\App.jsx">
       <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -18,7 +18,7 @@
       <line num="12" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
     </file>
-    <file name="Folder.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\Folder.jsx">
+    <file name="Folder.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\Folder.jsx">
       <metrics statements="28" coveredstatements="28" conditionals="7" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -49,7 +49,7 @@
       <line num="27" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
     </file>
-    <file name="FolderItem.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\FolderItem.jsx">
+    <file name="FolderItem.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\FolderItem.jsx">
       <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -59,7 +59,7 @@
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
     </file>
-    <file name="LeftNav.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\LeftNav.jsx">
+    <file name="LeftNav.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\LeftNav.jsx">
       <metrics statements="180" coveredstatements="121" conditionals="12" coveredconditionals="10" methods="9" coveredmethods="4"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -242,7 +242,7 @@
       <line num="179" count="1" type="stmt"/>
       <line num="180" count="1" type="stmt"/>
     </file>
-    <file name="RichTextEditor.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\RichTextEditor.jsx">
+    <file name="RichTextEditor.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\RichTextEditor.jsx">
       <metrics statements="25" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -270,7 +270,7 @@
       <line num="24" count="1" type="stmt"/>
       <line num="25" count="1" type="stmt"/>
     </file>
-    <file name="StarRating.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\StarRating.jsx">
+    <file name="StarRating.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\StarRating.jsx">
       <metrics statements="21" coveredstatements="21" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
@@ -294,7 +294,7 @@
       <line num="20" count="1" type="stmt"/>
       <line num="21" count="1" type="stmt"/>
     </file>
-    <file name="main.jsx" path="C:\Users\USER\Desktop\-\test\Vitest-practice\src\main.jsx">
+    <file name="main.jsx" path="C:\Users\USER\Desktop\-\TP\GL5\devops\Vitest-practice\src\main.jsx">
       <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
       <line num="2" count="0" type="stmt"/>

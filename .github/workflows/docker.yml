@@ -1,4 +1,4 @@
-name: Build and Push Docker Image
+name: Build, Scan & Push Docker Image
 
 on:
   push:
@@ -20,10 +20,23 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build react project
         run: npm run build --if-present
+
+      - name: Run Tests
+        run: npm run test
+      - name: Run Coverage Tests
+        run: npm run test:coverage
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONARCLOUD_TOKEN }}
+
       - name: Push to Docker
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
